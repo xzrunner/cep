@@ -1,0 +1,5 @@
+cgaeasy/
+projects/*
+
+!projects/cgaeasy.vcxproj
+!projects/cgaeasy.vcxproj.filters
