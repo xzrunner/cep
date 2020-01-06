@@ -1,4 +1,4 @@
-#include "cgaplugin/CompCGA.h"
+#include "cgaeasy/CompCGA.h"
 
 namespace cgae
 {
