@@ -1,13 +1,13 @@
 #pragma once
 
-namespace cgae
+namespace cep
 {
 
-class CGAEasy
+class CEP
 {
 public:
     static void Init();
 
-}; // CGAEasy
+}; // CEP
 
 }

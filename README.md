@@ -1,3 +1,3 @@
-# cgaeasy
+# cep
 
-CGA plugin.
+ce plugin.

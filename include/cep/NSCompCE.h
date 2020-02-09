@@ -2,15 +2,15 @@
 
 #include <ns/NodeComponent.h>
 
-namespace cgae
+namespace cep
 {
 
-class CompCGA;
+class CompCE;
 
-class NSCompCGA : public ns::NodeComponent
+class NSCompCE : public ns::NodeComponent
 {
 public:
-    NSCompCGA() {}
+    NSCompCE() {}
 
     //
     // bin
@@ -28,12 +28,12 @@ public:
     //
     // memory
     //
-    void StoreToMem(CompCGA& comp) const;
-    void LoadFromMem(const CompCGA& comp);
+    void StoreToMem(CompCE& comp) const;
+    void LoadFromMem(const CompCE& comp);
 
 private:
     std::string m_filepath;
 
-}; // NSCompCGA
+}; // NSCompCE
 
 }

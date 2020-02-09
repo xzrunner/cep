@@ -1,5 +1,5 @@
-cgaeasy/
+cep/
 projects/*
 
-!projects/cgaeasy.vcxproj
-!projects/cgaeasy.vcxproj.filters
+!projects/cep.vcxproj
+!projects/cep.vcxproj.filters
