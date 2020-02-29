@@ -1,5 +1,5 @@
-cep/
+easyarchgraph/
 projects/*
 
-!projects/cep.vcxproj
-!projects/cep.vcxproj.filters
+!projects/easyarchgraph.vcxproj
+!projects/easyarchgraph.vcxproj.filters

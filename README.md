@@ -1,3 +1,3 @@
-# cep
+# easyarchgraph
 
-ce plugin.
+archgraph plugin.

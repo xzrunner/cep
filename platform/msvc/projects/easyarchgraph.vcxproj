@@ -11,19 +11,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\include\cep\CompCE.h" />
-    <ClInclude Include="..\..\..\include\cep\CEP.h" />
-    <ClInclude Include="..\..\..\include\cep\NSCompCE.h" />
+    <ClInclude Include="..\..\..\include\easyarchgraph\CompArchGraph.h" />
+    <ClInclude Include="..\..\..\include\easyarchgraph\EasyArchGraph.h" />
+    <ClInclude Include="..\..\..\include\easyarchgraph\NSCompArchGraph.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\source\CompCE.cpp" />
-    <ClCompile Include="..\..\..\source\CEP.cpp" />
-    <ClCompile Include="..\..\..\source\NSCompCE.cpp" />
+    <ClCompile Include="..\..\..\source\CompArchGraph.cpp" />
+    <ClCompile Include="..\..\..\source\EasyArchGraph.cpp" />
+    <ClCompile Include="..\..\..\source\NSCompArchGraph.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>4.cep</ProjectName>
+    <ProjectName>2.easyarchgraph</ProjectName>
     <ProjectGuid>{D3726C18-8EBE-4E6B-9FB9-EF88645F679B}</ProjectGuid>
-    <RootNamespace>cep</RootNamespace>
+    <RootNamespace>easyarchgraph</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -53,12 +53,12 @@
     <_ProjectFileVersion>15.0.26730.12</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>..\cep\x86\Debug\</OutDir>
-    <IntDir>..\cep\x86\Debug\obj\</IntDir>
+    <OutDir>..\easyarchgraph\x86\Debug\</OutDir>
+    <IntDir>..\easyarchgraph\x86\Debug\obj\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>..\cep\x86\Release\</OutDir>
-    <IntDir>..\cep\x86\Release\obj\</IntDir>
+    <OutDir>..\easyarchgraph\x86\Release\</OutDir>
+    <IntDir>..\easyarchgraph\x86\Release\obj\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

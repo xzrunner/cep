@@ -2,15 +2,15 @@
 
 #include <ns/NodeComponent.h>
 
-namespace cep
+namespace easyarchgraph
 {
 
-class CompCE;
+class CompArchGraph;
 
-class NSCompCE : public ns::NodeComponent
+class NSCompArchGraph : public ns::NodeComponent
 {
 public:
-    NSCompCE() {}
+    NSCompArchGraph() {}
 
     //
     // bin
@@ -28,12 +28,12 @@ public:
     //
     // memory
     //
-    void StoreToMem(CompCE& comp) const;
-    void LoadFromMem(const CompCE& comp);
+    void StoreToMem(CompArchGraph& comp) const;
+    void LoadFromMem(const CompArchGraph& comp);
 
 private:
     std::string m_filepath;
 
-}; // NSCompCE
+}; // NSCompArchGraph
 
 }
