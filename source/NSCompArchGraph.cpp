@@ -15,7 +15,7 @@ void NSCompArchGraph::StoreToBin(const std::string& dir, bs::ExportStream& es) c
 {
 }
 
-void NSCompArchGraph::LoadFromBin(const std::string& dir, bs::ImportStream& is)
+void NSCompArchGraph::LoadFromBin(const ur2::Device& dev, const std::string& dir, bs::ImportStream& is)
 {
 }
 
@@ -27,13 +27,13 @@ void NSCompArchGraph::StoreToJson(const std::string& dir, rapidjson::Value& val,
     val.AddMember("filepath", rapidjson::Value(relative.c_str(), alloc), alloc);
 }
 
-void NSCompArchGraph::LoadFromJson(mm::LinearAllocator& alloc, const std::string& dir, const rapidjson::Value& val)
+void NSCompArchGraph::LoadFromJson(const ur2::Device& dev, mm::LinearAllocator& alloc, const std::string& dir, const rapidjson::Value& val)
 {
     auto relative = val["filepath"].GetString();
     m_filepath = boost::filesystem::absolute(relative, dir).string();
 }
 
-void NSCompArchGraph::StoreToMem(CompArchGraph& comp) const
+void NSCompArchGraph::StoreToMem(const ur2::Device& dev, CompArchGraph& comp) const
 {
     comp.SetFilepath(m_filepath);
 }
